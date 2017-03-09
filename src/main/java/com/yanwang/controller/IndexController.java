@@ -34,6 +34,7 @@ public class IndexController {
     @RequestMapping("/i18n")
     public String testI18n(Locale locale, HttpSession session, HttpServletRequest request, HttpServletResponse response) {
         String className = request.getClass().getName();
+        System.out.println("class: " + className);
         System.out.println("locale: " + locale);
         String val = messageSource.getMessage("i18n.user", null, locale);
         System.out.println("value: " + val);
