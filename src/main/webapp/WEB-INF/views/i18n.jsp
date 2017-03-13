@@ -1,11 +1,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
 <head>
 <title>Title</title>
 </head>
 <body>
-<fmt:message key="i18n.user"></fmt:message>
+<fmt:message key="i18n.user"></fmt:message><br>
+<spring:message code="i18n.user" />
 <br><br>
 <a href="i18n2">I18N2 PAGE</a>
 <br><br>
