@@ -6,8 +6,8 @@
 <title>Title</title>
 </head>
 <body>
-<fmt:message key="i18n.user"></fmt:message><br>
-<spring:message code="i18n.user" />
+<fmt:message key="i18n.user" /><br>
+<spring:eval expression="i18n.user" />
 <br><br>
 <a href="i18n2">I18N2 PAGE</a>
 <br><br>
