@@ -7,7 +7,6 @@
 </head>
 <body>
 <fmt:message key="i18n.user" /><br>
-<spring:eval expression="i18n.user" />
 <br><br>
 <a href="i18n2">I18N2 PAGE</a>
 <br><br>

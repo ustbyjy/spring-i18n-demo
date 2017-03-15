@@ -7,7 +7,6 @@
 </head>
 <body>
 <fmt:message key="i18n.password" /><br>
-<spring:message code="i18n.password" />
 <br><br>
 <a href="i18n">I18N PAGE</a>
 <br><br>
